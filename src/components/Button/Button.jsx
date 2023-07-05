@@ -27,7 +27,7 @@ Button.defaultProps = {
     borderRounded: 'rounded-md',
   },
   content: 'Button',
-  callback: () => console.log('Button Clicked'),
+  callback: null,
 };
 
 export default Button;
