@@ -5,10 +5,10 @@ const Input = ({ type, placeholder, label, required, styles, name, values }) => 
     case "radio":
       return <span className={`flex mt-6 gap-1 ${styles}`}>
         {values.map(val =>{
-        return (<>
+        return (<span key={val.name} className="contents">
             <input className="ml-3 indeterminate:border-r_border" name={name} type={type} id={val.value} value={val.value}  required={required}/>
-            <label className="text-sm leading-5 text-t_grey" for={val.value}>{val.name}</label>
-          </>
+            <label className="text-sm leading-5 text-t_grey" htmlFor={val.value}>{val.name}</label>
+          </span>
           );})}
       </span>
     

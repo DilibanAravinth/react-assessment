@@ -12,6 +12,8 @@ module.exports = {
         t_white: '#FAFAFA',
         t_dark: '#212121',
         t_grey: '#7A7A7A',
+        t_dark_grey:"#212427",
+        t_light_grey:"#646464",
         t_error: '#D86161',
         r_border: '#D8D8D8'
       },

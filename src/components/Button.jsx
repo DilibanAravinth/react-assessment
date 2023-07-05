@@ -6,7 +6,7 @@ const Button = ({ styles, content, callback = null }) => {
 
   let butonTypeStyles = {
     primary: 'bg-primary text-t_white',
-    secondary: 'bg-c_white text-primary border-solid border-primary-border',
+    secondary: 'bg-c_white text-primary border border-solid border-primary',
   }[type];
   let classNames = ` ${butonTypeStyles} ${borderRounded} ${fontSize}${fontWeight} ${paddingX} ${paddingY}`;
 
